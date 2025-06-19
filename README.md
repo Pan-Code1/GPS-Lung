@@ -42,6 +42,7 @@ pip install -r requirements.txt
 
 ### 4. Download Pre-trained Model
 
+https://drive.google.com/file/d/1f4GF29ZXa8x1nvGffWMY-PpyDDBxz60u/view?usp=drive_link
 
 
 ### 5. Download Data
