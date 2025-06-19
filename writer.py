@@ -51,15 +51,3 @@ class DicomWriter:
 
             ds.save_as(os.path.join(save_path, save_name, f"dicom_{i+1:0=3d}"))
 
-
-# if __name__ == "__main__":
-#     root_path = r"\\10.13.51.79\data\CT\CBCT\wuhanxiehe\paired\CBCT-100\CBCT-100\CBCT\AN_XIU_FANG_P5881566"
-#     temp_path = r"D:\data\temp"
-#     reader = DicomReader(minHU=-1000, maxHU=500, temp_path=temp_path) #输出缓存路径用来保存中间结果，不然dicom数据都放在内存会爆内存
-#     dicom_dataset = reader.read(root_path)
-#     print(f"dicom dataset ({len(dicom_dataset)})")
-#
-#     save_path = r"D:\data\temp\save"
-#     writer = DicomWriter(minHU=-1000, maxHU=500, temp_path=temp_path, data_key="dicom_data")
-#     for raw_data_dict in dicom_dataset:
-#         writer.write(raw_data_dict, save_path)
