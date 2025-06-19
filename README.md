@@ -1,5 +1,23 @@
 # GPS-Lung
 
+# CBCT-CT Conversion System
+
+A deep learning-based CBCT to CT image conversion system using diffusion models for high-quality medical image modality transformation.
+
+## Project Overview
+
+This project implements the CBCT to CT image generation method from the GPS-Lung system, as described in the paper "Generative AI–Powered Navigation System for Precision Puncture: A Multicenter Randomized Controlled Trial Evaluating Efficacy and Safety". 
+
+The system implements a CBCT (Cone Beam Computed Tomography) to CT image conversion system based on diffusion models. The system adopts a client-server architecture and supports batch processing of DICOM format medical image data.
+
+### Related Publication
+
+**Paper**: "Generative AI–Powered Navigation System for Precision Puncture: A Multicenter Randomized Controlled Trial Evaluating Efficacy and Safety"
+
+**Method**: GPS-Lung CBCT to CT image generation implementation
+
+This repository contains the practical implementation of the CBCT-to-CT conversion component used in the GPS-Lung navigation system for precision medical procedures.
+
 ## Guide
 
 ### 1. Clone Repository
