@@ -254,6 +254,3 @@ def generate(msg):
 
 if __name__ == '__main__':
     app.run(host=cfg.host, port=cfg.port)
-
-    # debug
-    # generate(".1705973915.535557.tmp")
