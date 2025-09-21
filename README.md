@@ -52,6 +52,22 @@ https://drive.google.com/drive/folders/1-2uK5uEz2r4ncUs3GjeuLgMcIMOzSefS?usp=sha
 
 ## Usage
 
+### How to Train
+
+run the training script:
+```bash
+./train.sh
+```
+
+### How to Test
+run the training script:
+```bash
+./test.sh
+```
+
+### Data Preparation
+Both training and testing processes require NIfTI files (.nii) to be converted to MATLAB format files (.mat). Please ensure all your NIfTI files are properly converted to .mat format before running either the training or testing scripts.
+
 ### System Startup
 
 The system adopts a client-server separation architecture, requiring separate startup of server and client.
@@ -63,7 +79,6 @@ In the first terminal window:
 ```bash
 python server.py
 ```
-
 
 #### 2. Start Client
 
