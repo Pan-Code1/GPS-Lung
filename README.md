@@ -47,8 +47,7 @@ https://share.weiyun.com/vNn4d2Bo
 
 ### 5. Download Data
 
-https://share.weiyun.com/6qOfbqfQ
-
+https://drive.google.com/drive/folders/1-2uK5uEz2r4ncUs3GjeuLgMcIMOzSefS?usp=sharing
 
 
 ## Usage
