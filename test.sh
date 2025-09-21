@@ -1,0 +1,21 @@
+python test.py  --image_size 256 \
+    --exp "exp_7.3.10.30" \
+    --num_channels 2 \
+    --num_channels_dae 64 \
+    --ch_mult 1 1 2 2 4 4 \
+    --num_timesteps 4 \
+    --num_res_blocks 2 \
+    --batch_size 1 \
+    --embedding_type positional  \
+    --z_emb_dim 256 \
+    --contrast1 CBCT  \
+    --contrast2 CT \
+    --which_epoch 38 \
+    --gpu_chose 0 \
+    --num_timesteps 100 \
+    --use_ddim \
+    --ddim_eta 0.0 \
+    --use_sharpening \
+    --sharpening_intensity 1.2 \
+    --input_path /CBCT/data_processed  \
+    --output_path save/CBCT-CT/lung

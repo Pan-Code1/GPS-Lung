@@ -1,0 +1,33 @@
+python3 train.py \
+--image_size 256 \
+--exp "exp_7.3.10.30" \
+--num_channels 2 \
+--num_channels_dae 64 \
+--ch_mult 1 1 2 2 4 4 \
+--num_timesteps 4 \
+--num_res_blocks 2 \
+--batch_size 1 \
+--contrast1 CBCT \
+--contrast2 CT \
+--num_epoch 40 \
+--ngf 64 \
+--embedding_type positional \
+--use_ema \
+--ema_decay 0.999 \
+--r1_gamma 1. \
+--z_emb_dim 256 \
+--lr_d 1e-4 \
+--lr_g 1.6e-4 \
+--lazy_reg 10 \
+--num_process_per_node 2 \
+--save_content \
+--input_path /CBCT/data_processed \
+--output_path save/CBCT-CT/lung \
+--port_num 6021 \
+--save_ckpt_every 1 \
+--save_content_every 1 \
+--resume \
+--nz 100 \
+--n_mlp 3 \
+--local_rank 0 
+
