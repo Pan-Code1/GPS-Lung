@@ -42,7 +42,7 @@ pip install -r requirements.txt
 
 ### 4. Download Pre-trained Model
 
-https://share.weiyun.com/vNn4d2Bo
+https://drive.google.com/file/d/1KbyTUWC3iLMA6ogWvtLvsA_fVJnvrLXB/view?usp=sharing
 
 
 ### 5. Download Data
